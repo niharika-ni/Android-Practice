@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "455196074289",
+    "project_id": "assignment-five-4d857",
+    "storage_bucket": "assignment-five-4d857.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:455196074289:android:186e5737feedd657421010",
+        "android_client_info": {
+          "package_name": "com.example.assignmentfive"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYy1ORbrNaok9FGy24w4JIxqabCedbElg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
