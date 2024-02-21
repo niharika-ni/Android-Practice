@@ -1,0 +1,116 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment_menu">
+
+    <Button
+        android:id="@+id/orderfruits"
+        android:onClick="orderfruits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="65dp"
+        android:text="Fruits"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewfruits"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewfruits"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageViewfruits"
+        android:layout_width="0dp"
+        android:layout_height="169dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="81dp"
+        app:layout_constraintBottom_toTopOf="@+id/orderfritters"
+        app:layout_constraintEnd_toStartOf="@+id/orderfruits"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textViewhead"
+        app:srcCompat="@drawable/fruits"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/orderfritters"
+        android:onClick="orderfritters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="85dp"
+        android:text="Fritters"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewfritter"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,UnknownId" />
+
+    <ImageView
+        android:id="@+id/imageViewfritter"
+        android:layout_width="0dp"
+        android:layout_height="155dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginEnd="27dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/orderfritters"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fritters"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/orderprotein"
+        android:onClick="orderprotein"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="170dp"
+        android:text="Protein snacks"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewprotein"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageViewprotein"
+        android:layout_width="0dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginEnd="19dp"
+        app:layout_constraintBottom_toBottomOf="@+id/orderprotein"
+        app:layout_constraintEnd_toStartOf="@+id/orderprotein"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/orderprotein"
+        app:srcCompat="@drawable/protein"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textViewhead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Items Available"
+        android:textColor="#800000"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonnoncart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="16dp"
+        android:text="cart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

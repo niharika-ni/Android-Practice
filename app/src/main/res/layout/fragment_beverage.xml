@@ -1,0 +1,115 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment_menu">
+
+    <Button
+        android:id="@+id/ordercola"
+        android:onClick="ordercola"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="60dp"
+        android:text="Cola"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewcola"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewcola"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageViewcola"
+        android:layout_width="0dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="71dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewjuice"
+        app:layout_constraintEnd_toStartOf="@+id/ordercola"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/cola"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/orderjuice"
+        android:onClick="orderjuice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="68dp"
+        android:text="Juice"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewjuice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewjuice"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageViewjuice"
+        android:layout_width="0dp"
+        android:layout_height="172dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginEnd="59dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/orderjuice"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/juice"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/ordertea"
+        android:onClick="ordertea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="115dp"
+        android:text="Tea"
+        android:textSize="23sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewtea"
+        app:layout_constraintTop_toTopOf="@+id/imageViewtea"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageViewtea"
+        android:layout_width="0dp"
+        android:layout_height="163dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="61dp"
+        app:layout_constraintEnd_toStartOf="@+id/ordertea"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewjuice"
+        app:srcCompat="@drawable/tea"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textViewhead3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Items Available"
+        android:textColor="#800000"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonbevcart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="16dp"
+        android:text="cart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
