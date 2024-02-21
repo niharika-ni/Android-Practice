@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "145189850002",
+    "project_id": "expense1-cbfe9",
+    "storage_bucket": "expense1-cbfe9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:145189850002:android:9730a63e12612ab99e8f4b",
+        "android_client_info": {
+          "package_name": "com.example.expensetracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkv89TQL7bCr8rP3xCA2rS9mjRugB8hN4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:145189850002:android:9b880167d981182c9e8f4b",
+        "android_client_info": {
+          "package_name": "com.example.moneymanager"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkv89TQL7bCr8rP3xCA2rS9mjRugB8hN4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
